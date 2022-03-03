@@ -39,7 +39,7 @@ LIGHT_GREEN="#7cb342"
 # Launch Rofi
 #rofi -no-lazy-grab -show drun \
 #-display-drun "Applications :" -drun-display-format "{name}" \
-rofi -no-lazy-grab -modi "Files:~/.config/scripts/rofi-fb.sh,calc" -terse -combi-modi drun,run,window,Files,calc -show combi -no-show-match -no-sort \
+rofi -no-lazy-grab -modi "Files:~/.config/bspwm/scripts/rofi-fb.sh,calc" -terse -combi-modi drun,run,window,Files,calc -show combi -no-show-match -no-sort \
 -display-combi "Power Menu " \
 -display-ssh "SSH " \
 -hide-scrollbar true \
